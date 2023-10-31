@@ -9,16 +9,13 @@ public class App {
     if (a==0||b==0||c==0){
       return "error no es un triangulo";
     }
-    if (a == b && b == c && c == a)
-    {
+    if (a == b && b == c ) {
       return "es un triangulo equilatero";
     }
     return "es  triangulo isoceles o escaleno";
   } 
   
-
   public static void main(String[] args) {
     System.out.println("Hola Gente!");
   } 
-
 }
